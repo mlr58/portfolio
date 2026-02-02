@@ -16,57 +16,103 @@
 <!-- Hero -->
 <section class="hero fade-in">
   <h1>Manuel Lora Ruiz</h1>
-  <p>Physicist & Data Scientist | Turning complex physics into actionable insights</p>
+  <p class="hero-sub">
+    Physicist & Data Scientist building pipelines, models, and dashboards
+    that turn noisy systems into decisions.
+  </p>
+  <p class="hero-sub-muted">
+    Python · Machine Learning · Analytics · Scientific Thinking
+  </p>
 </section>
 
-<!-- Featured Projects -->
-<section id="projects" class="fade-in">
+<!-- Projects -->
+<main id="projects" class="fade-in">
   <h2 class="section-title">Selected Projects</h2>
+
   <div class="project-grid">
 
-    <div class="card-crystal project-card fade-in">
-      <h5>Real-time ETL and Dashboard</h5>
-      <p>Built a pipeline that extracts, transforms, and loads data in real-time and visualizes it via an interactive PowerBI dashboard.</p>
+    <div class="card-crystal project-card">
+      <h5>Real-time ETL for Sales Analytics</h5>
+
+      <p class="project-problem">
+        Fragmented data and multi-hour reporting delays slowed decision-making.
+      </p>
+
+      <p class="project-solution">
+        Designed a real-time ETL pipeline feeding a live Power BI dashboard.
+      </p>
+
+      <p class="project-impact">
+        Reduced reporting latency from hours to minutes.
+      </p>
+
       <div class="tech-icons">
         <i class="devicon-python-plain"></i>
         <i class="devicon-sql-plain"></i>
         <i class="devicon-powerbi-plain"></i>
       </div>
-      <a href="project_detail.html" class="btn btn-outline-info mt-2">Read More →</a>
+
+      <a href="project_details.html" class="btn btn-outline-info mt-3">
+        View Case Study →
+      </a>
     </div>
 
-    <div class="card-crystal project-card fade-in">
+    <div class="card-crystal project-card">
       <h5>ML Forecasting Engine</h5>
-      <p>Developed predictive models using Python and scikit-learn to forecast sales trends across multiple regions.</p>
+
+      <p class="project-problem">
+        Sales forecasts varied widely across regions and lacked consistency.
+      </p>
+
+      <p class="project-solution">
+        Built and evaluated ML models against statistical baselines.
+      </p>
+
+      <p class="project-impact">
+        Reduced forecast error by ~30% versus historical methods.
+      </p>
+
       <div class="tech-icons">
         <i class="devicon-python-plain"></i>
         <i class="devicon-sklearn-plain"></i>
         <i class="devicon-jupyter-plain"></i>
       </div>
-      <a href="project_detail.html" class="btn btn-outline-info mt-2">Read More →</a>
+
+      <a href="project_details.html" class="btn btn-outline-info mt-3">
+        View Case Study →
+      </a>
     </div>
 
   </div>
+</main>
+
+<!-- How I Work -->
+<section class="fade-in">
+  <h2 class="section-title">How I Work</h2>
+  <p class="philosophy">
+    My background in physics shapes how I approach data problems:
+    start with simple models, test assumptions aggressively,
+    and add complexity only when it earns its keep.
+    I treat data systems as noisy, constrained, and imperfect—because they are.
+  </p>
 </section>
 
 <!-- Contact -->
-<section id="contact" class="fade-in">
+<section id="contact" class="fade-in" aria-label="Contact">
   <h2 class="section-title">Contact</h2>
-  <div class="contact">
-    <p>Let's collaborate or chat about data science & physics!</p>
-    <p>
-      <a href="https://www.linkedin.com/in/manuelloraruiz" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/mlr58" target="_blank">GitHub</a> |
-      <a href="mailto:manuelloraruiz8@gmail.com">Email</a>
-    </p>
-  </div>
+  <p>Interested in collaboration or applied data work?</p>
+  <p class="contact">
+    <a href="https://www.linkedin.com/in/manuelloraruiz" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/mlr58" target="_blank">GitHub</a> |
+    <a href="mailto:manuelloraruiz8@gmail.com">Email</a>
+  </p>
 </section>
 
 <footer>
-  <p>&copy; 2025 Manuel Lora Ruiz. All rights reserved.</p>
+  <p>&copy; 2025 Manuel Lora Ruiz</p>
 </footer>
 
-</div> <!-- container-page -->
+</div>
 
 <script src="js/script.js"></script>
 </body>
