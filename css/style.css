@@ -1,48 +1,39 @@
-.hero-sub {
-  font-size: 1.25rem;
-  color: var(--text-main);
-  max-width: 720px;
-  margin: 20px auto 0;
-}
-
-.hero-sub-muted {
-  font-size: 0.95rem;
-  color: #aaa;
-  margin-top: 10px;
-}
-
-.project-problem {
-  color: #bbb;
-  font-size: 0.9rem;
-  margin-bottom: 6px;
-}
-
-.project-solution {
-  color: var(--text-main);
-  font-size: 0.95rem;
-  margin-bottom: 6px;
-}
-
-.project-impact {
-  color: var(--accent-secondary);
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.philosophy {
-  max-width: 760px;
+.presentation-text {
+  max-width: 800px;
   margin: 0 auto;
   color: #ddd;
   font-size: 1.05rem;
 }
 
-.project-list {
-  text-align: left;
-  max-width: 700px;
-  margin: 10px auto 0;
-  color: #ddd;
+.project-desc {
+  color: #ccc;
+  font-size: 0.95rem;
 }
 
-.project-list li {
-  margin-bottom: 8px;
+.skill-card {
+  text-align: left;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+  border-radius: 6px;
+}
+
+.skill-desc {
+  font-size: 0.9rem;
+  color: #ccc;
 }
